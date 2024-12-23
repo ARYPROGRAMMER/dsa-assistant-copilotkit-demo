@@ -6,7 +6,6 @@ import {
   Code2,
   BrainCircuit,
   CheckCircle2,
-  MessagesSquare,
   Sparkles,
   GitBranch,
 } from "lucide-react";

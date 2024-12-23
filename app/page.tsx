@@ -2,10 +2,8 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import {
-  ArrowRight,
   Brain,
   Network,
-  Zap,
   Github,
   Terminal,
   Code2,
@@ -276,7 +274,10 @@ function FeatureCard({
   title,
   description,
   gradient,
-}: {
+}: 
+
+{
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any 
   icon: any;
   title: string;
   description: string;
